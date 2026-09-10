@@ -27,7 +27,7 @@ Connect your Valheim server (dedicated or served from the game itself) to a Disc
 
 ## Abridged Changelog
 
-## Unreleased
+## Version 3.1.4
 
 Changes
 
