@@ -2,7 +2,7 @@
 
 A full changelog of changes, dating all the way back to the first release.
 
-## Unreleased
+## Version 3.1.4
 
 Changes
 
