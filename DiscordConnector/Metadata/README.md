@@ -27,6 +27,15 @@ Connect your Valheim server (dedicated or served from the game itself) to a Disc
 
 ## Abridged Changelog
 
+## Unreleased
+
+Changes
+
+- Dedicated servers can capture player shouts from Valheim's routed chat traffic without the client plugin when at least
+  two players are connected. The client plugin is still required to capture a shout when only one player is connected
+  and for other client chat data such as pings.
+- Prevented duplicate Discord shout messages when the server receives both native routed chat and the client plugin RPC.
+
 ## Version 3.1.3
 
 Fixes

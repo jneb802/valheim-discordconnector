@@ -59,7 +59,8 @@ public static class Server
                     return;
                 }
 
-                Handlers.Shout(peer, chatMessageDetail.Pos, chatMessageDetail.Text);
+                RoutedRpcPatches.ForwardPlayerShout(peer, chatMessageDetail.Pos, chatMessageDetail.Text,
+                    "DiscordConnector client RPC");
                 break;
             case Talker.Type.Whisper:
                 // Handlers.Whisper(peer, chatMessageDetail.Pos, chatMessageDetail.Text);
